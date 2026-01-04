@@ -1,0 +1,38 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+nemo_env/
+nemo_env_clean/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large model files
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Plan document (optional - uncomment to exclude)
+# setup-git-repository_plan.md
+
+# Optional: Uncomment to exclude data directories
+# data_curate/original_data/
+# data_curate/curated/
+

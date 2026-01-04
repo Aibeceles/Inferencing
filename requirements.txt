@@ -1,0 +1,29 @@
+# Core NeMo Curator
+nemo-curator>=0.9.0
+
+# PII Detection
+presidio-analyzer
+
+# Jupyter Environment
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
+
+# Data Processing
+dask[complete]>=2024.1.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ML Dependencies
+transformers>=4.30.0
+torch>=2.0.0
+
+# Language Detection (fasttext model downloaded separately)
+# Model: https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
+
+# Optional: Uncomment for specific versions
+# dask-cuda>=25.4.0
+# cudf>=25.4.0
+# rapids>=25.4.0
+
