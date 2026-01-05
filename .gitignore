@@ -36,3 +36,5 @@ Thumbs.db
 # data_curate/original_data/
 # data_curate/curated/
 
+
+secrets.env
